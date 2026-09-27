@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Admin — The International Porsche Garage</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/ipg-logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img src="assets/ipg-logo.jpg" alt="logo">
+      <span>Garage <em>Admin</em></span>
+    </a>
+    <nav class="links"><a href="index.html">← Back to site</a></nav>
+  </div>
+</header>
+
+<!-- PASSCODE GATE -->
+<div id="gate" class="admin-wrap passgate" style="display:none;">
+  <h2 id="gate-title">Enter your admin passcode</h2>
+  <p class="hint" id="gate-hint">First time here? Pick any passcode you like — it's stored only on this device.</p>
+  <input type="text" id="gate-input" inputmode="numeric" autocomplete="off" placeholder="Passcode" style="max-width:280px;margin:10px auto;display:block;">
+  <button class="btn" id="gate-btn">Unlock</button>
+  <p class="hint" id="gate-err" style="color:#e88;"></p>
+</div>
+
+<!-- MAIN ADMIN -->
+<div id="admin" class="admin admin-wrap" style="display:none;">
+  <h2>Brand page editor</h2>
+  <div class="note" style="margin-top:12px;">
+    <strong>How this works (plain English):</strong>
+    <ol style="margin:8px 0 0 18px;color:var(--muted);font-size:.95rem;">
+      <li>Pick a brand tab below.</li>
+      <li>Change the text, prices, or pictures — what you see in the preview boxes is what the page will show.</li>
+      <li>To add pictures from your phone, tap <em>Add pictures</em> and pick photos. Tap a picture's <strong>★</strong> to make it the big top image, <strong>×</strong> to remove one.</li>
+      <li>When done, choose how to save:
+        <br><strong>Download updated files</strong> — saves the new page info + pictures to your phone. Send them to Edison and he'll put them live.
+        <br><strong>Publish live now</strong> — puts your changes on the website yourself within a few minutes (needs a one-time setup below).</li>
+    </ol>
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <label>Brand name (page title)</label>
+  <input type="text" id="f-brand">
+
+  <label>Tagline (the short line under the title)</label>
+  <input type="text" id="f-tagline">
+
+  <label>Description paragraphs</label>
+  <p class="hint">One paragraph per box section — leave a blank line between paragraphs.</p>
+  <textarea id="f-desc" rows="6"></textarea>
+
+  <label>Bullet points (the ✓ list)</label>
+  <p class="hint">One point per line.</p>
+  <textarea id="f-bullets" rows="5"></textarea>
+
+  <h3 style="color:var(--gold);margin-top:24px;">Products</h3>
+  <p class="hint">Each product shows its name, price, description and eBay link on the brand page.</p>
+  <div id="products"></div>
+  <button class="btn ghost bigbtn" id="add-product" type="button">+ Add a product</button>
+
+  <h3 style="color:var(--gold);margin-top:24px;">Pictures</h3>
+  <p class="hint">Tap ★ to make a picture the big top image. Tap × to remove.</p>
+  <div class="thumbs" id="thumbs"></div>
+  <label class="btn ghost bigbtn" style="text-align:center;cursor:pointer;">+ Add pictures from this device
+    <input type="file" id="img-input" accept="image/*" multiple style="display:none;">
+  </label>
+
+  <h3 style="color:var(--gold);margin-top:24px;">PayPal checkout</h3>
+  <p class="hint">Paste the button code Edison gives you after PayPal setup. Until then the page shows an eBay link instead — nothing breaks.</p>
+  <label>PayPal "Buy Now" button code (digital manual)</label>
+  <textarea id="f-paypal" rows="3" placeholder="Paste the PayPal button HTML here"></textarea>
+  <label>PayPal DVD add-on button code ($24.99)</label>
+  <textarea id="f-dvd" rows="3" placeholder="Paste the DVD button HTML here"></textarea>
+
+  <h3 style="color:var(--gold);margin-top:24px;">Save your changes</h3>
+  <button class="btn bigbtn" id="btn-download" type="button">⬇ Download updated files</button>
+  <p class="hint">Saves the page info + any new pictures to this device. Send them to Edison (message or email) and he'll put them live.</p>
+
+  <button class="btn ghost bigbtn" id="btn-publish" type="button">🚀 Publish live now</button>
+  <p class="hint">Puts changes on the website yourself — no waiting. One-time setup needed:</p>
+  <div class="note">
+    <strong>One-time setup (do this once):</strong>
+    <ol style="margin:8px 0 0 18px;color:var(--muted);font-size:.92rem;">
+      <li>On GitHub, open your profile → Settings → Developer settings → Personal access tokens → Tokens (classic) → <em>Generate new token</em>.</li>
+      <li>Give it a name like "garage site editor", tick <strong>repo</strong>, generate, and copy the token.</li>
+      <li>Paste it below with your GitHub name and site repository name. The token is stored <strong>only in this browser</strong> — it is never sent anywhere except GitHub when you publish.</li>
+    </ol>
+    <label style="margin-top:12px;">GitHub username</label>
+    <input type="text" id="gh-user" placeholder="e.g. theinternationalporschegarage">
+    <label>Repository name</label>
+    <input type="text" id="gh-repo" placeholder="e.g. theinternationalporschegarage.github.io">
+    <label>Personal access token</label>
+    <input type="text" id="gh-token" placeholder="Paste token here" autocomplete="off">
+    <button class="btn ghost" id="gh-save" type="button" style="margin-top:6px;">Save setup on this device</button>
+  </div>
+  <p id="status" style="margin-top:14px;font-weight:700;"></p>
+  <p><a id="view-page" href="#" target="_blank">View this brand page →</a></p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var SLUGS = ["porsche", "range-rover", "lotus", "aston-martin"];
+  var NAMES = { porsche: "Porsche", "range-rover": "Range Rover", lotus: "Lotus", "aston-martin": "Aston Martin" };
+  var data = {};            // slug -> brand JSON object
+  var newFiles = {};       // slug -> [{name, dataUrl, file}]
+  var removedGallery = {}; // slug -> [src strings to keep as removed] (we just rebuild array)
+  var current = SLUGS[0];
+
+  function $(id) { return document.getElementById(id); }
+  function status(msg, ok) {
+    var s = $("status"); s.textContent = msg; s.style.color = ok === false ? "#e88" : "#8e8";
+  }
+
+  /* ---------- passcode gate ---------- */
+  var PASS_KEY = "ipg_admin_pass";
+  function showGate() {
+    var gate = $("gate"); gate.style.display = "block";
+    if (!localStorage.getItem(PASS_KEY)) {
+      $("gate-title").textContent = "Choose your admin passcode";
+      $("gate-hint").textContent = "Pick any passcode (4+ characters). It's stored only on this device — write it down.";
+    }
+    $("gate-btn").onclick = function () {
+      var v = $("gate-input").value.trim();
+      var saved = localStorage.getItem(PASS_KEY);
+      if (!saved) {
+        if (v.length < 4) { $("gate-err").textContent = "Please use at least 4 characters."; return; }
+        localStorage.setItem(PASS_KEY, v);
+        enter();
+      } else if (v === saved) { enter(); }
+      else { $("gate-err").textContent = "Wrong passcode — try again."; }
+    };
+    $("gate-input").addEventListener("keydown", function (e) { if (e.key === "Enter") $("gate-btn").click(); });
+  }
+  function enter() { $("gate").style.display = "none"; $("admin").style.display = "block"; boot(); }
+
+  /* ---------- load brand data ---------- */
+  function boot() {
+    if (!location.protocol.startsWith("http")) {
+      status("Note: open this page from the live site (or a local server) to edit — file:// cannot load the brand data.", false);
+    }
+    var tabs = $("tabs");
+    SLUGS.forEach(function (slug) {
+      var b = document.createElement("button");
+      b.textContent = NAMES[slug]; b.dataset.slug = slug;
+      if (slug === current) b.classList.add("active");
+      b.onclick = function () { saveFormToData(); current = slug; renderAll(); };
+      tabs.appendChild(b);
+    });
+    var loads = SLUGS.map(function (slug) {
+      return fetch("brands/" + slug + ".json").then(function (r) {
+        if (!r.ok) throw 0; return r.json();
+      }).then(function (j) { data[slug] = j; newFiles[slug] = []; });
+    });
+    Promise.all(loads).then(function () {
+      $("gh-user").value = localStorage.getItem("ipg_gh_user") || "";
+      $("gh-repo").value = localStorage.getItem("ipg_gh_repo") || "";
+      $("gh-token").value = localStorage.getItem("ipg_gh_token") || "";
+      renderAll();
+    }).catch(function () {
+      status("Could not load brand data. Open admin.html from the live website (not as a downloaded file).", false);
+    });
+  }
+
+  function renderAll() {
+    document.querySelectorAll("#tabs button").forEach(function (b) {
+      b.classList.toggle("active", b.dataset.slug === current);
+    });
+    var d = data[current];
+    $("f-brand").value = d.brand || "";
+    $("f-tagline").value = d.tagline || "";
+    $("f-desc").value = (d.description_paragraphs || []).join("\n\n");
+    $("f-bullets").value = (d.bullets || []).join("\n");
+    $("f-paypal").value = d.paypal_button_html || "";
+    $("f-dvd").value = d.dvd_button_html || "";
+    renderProducts(); renderThumbs();
+    $("view-page").href = "brands/" + current + ".html";
+  }
+
+  /* ---------- products ---------- */
+  function saveFormToData() {
+    var d = data[current]; if (!d) return;
+    d.brand = $("f-brand").value.trim();
+    d.tagline = $("f-tagline").value.trim();
+    d.description_paragraphs = $("f-desc").value.split(/\n\s*\n/).map(function (s) { return s.trim(); }).filter(Boolean);
+    d.bullets = $("f-bullets").value.split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
+    d.paypal_button_html = $("f-paypal").value.trim();
+    d.dvd_button_html = $("f-dvd").value.trim();
+    var prods = [];
+    document.querySelectorAll("#products .prod").forEach(function (el) {
+      var name = el.querySelector(".p-name").value.trim();
+      if (!name) return;
+      prods.push({
+        name: name,
+        price: el.querySelector(".p-price").value.trim() || "$25.49",
+        description: el.querySelector(".p-desc").value.trim(),
+        ebay_link: el.querySelector(".p-link").value.trim()
+      });
+    });
+    d.products = prods;
+  }
+  function renderProducts() {
+    var d = data[current]; var box = $("products"); box.innerHTML = "";
+    (d.products || []).forEach(function (p) { box.appendChild(prodEl(p)); });
+  }
+  function prodEl(p) {
+    p = p || {};
+    var el = document.createElement("div"); el.className = "prod";
+    el.innerHTML =
+      '<label>Product name</label><input type="text" class="p-name" value="">' +
+      '<label>Price</label><input type="text" class="p-price" value="">' +
+      '<label>Description</label><textarea class="p-desc" rows="2"></textarea>' +
+      '<label>eBay link</label><input type="url" class="p-link" value="">' +
+      '<button class="btn ghost" type="button" style="margin-top:8px;">Remove product</button>';
+    el.querySelector(".p-name").value = p.name || "";
+    el.querySelector(".p-price").value = p.price || "";
+    el.querySelector(".p-desc").value = p.description || "";
+    el.querySelector(".p-link").value = p.ebay_link || "";
+    el.querySelector("button").onclick = function () { el.remove(); };
+    return el;
+  }
+
+  /* ---------- gallery ---------- */
+  function galleryList() {
+    var d = data[current];
+    var list = (d.gallery || []).map(function (g) { return { src: g.src, caption: g.caption || "", isNew: false }; });
+    (newFiles[current] || []).forEach(function (nf) { list.push({ src: nf.dataUrl, caption: nf.name, isNew: true, file: nf.file }); });
+    return list;
+  }
+  function renderThumbs() {
+    var box = $("thumbs"); box.innerHTML = "";
+    var d = data[current];
+    galleryList().forEach(function (g, i) {
+      var t = document.createElement("div"); t.className = "thumb";
+      var heroSrc = d.hero_image;
+      var fullSrc = g.isNew ? g.src : g.src.replace("../", "");
+      if (!g.isNew && g.src === d.hero_image) t.classList.add("hero");
+      if (g.isNew && i === 0 && !d.gallery.length) t.classList.add("hero");
+      var img = document.createElement("img"); img.src = g.isNew ? g.src : g.src; img.alt = "";
+      var x = document.createElement("button"); x.className = "x"; x.textContent = "×"; x.title = "Remove";
+      x.onclick = function () {
+        if (g.isNew) {
+          newFiles[current] = newFiles[current].filter(function (nf) { return nf.dataUrl !== g.src; });
+        } else {
+          d.gallery = d.gallery.filter(function (gg) { return gg.src !== g.src; });
+          if (d.hero_image === g.src) d.hero_image = (d.gallery[0] || {}).src || "";
+        }
+        renderThumbs();
+      };
+      var star = document.createElement("button"); star.className = "makero"; star.textContent = "★ top image"; star.title = "Make the big top image";
+      star.onclick = function () {
+        if (g.isNew) { status("Save first (download or publish), then set a new picture as the top image.", false); return; }
+        d.hero_image = g.src; renderThumbs();
+      };
+      t.appendChild(img); t.appendChild(x); t.appendChild(star); box.appendChild(t);
+    });
+  }
+
+  $("img-input").addEventListener("change", function (e) {
+    var files = Array.prototype.slice.call(e.target.files || []);
+    if (!files.length) return;
+    var pending = files.length;
+    files.forEach(function (f) {
+      var r = new FileReader();
+      r.onload = function () {
+        var name = "admin-" + Date.now() + "-" + Math.floor(Math.random() * 1e6) + ".jpg";
+        newFiles[current].push({ name: name, dataUrl: r.result, file: f });
+        renderThumbs();
+        if (--pending === 0) status(files.length + " picture(s) added — remember to save (download or publish).", true);
+      };
+      r.readAsDataURL(f);
+    });
+    e.target.value = "";
+  });
+
+  $("add-product").onclick = function () { $("products").appendChild(prodEl()); };
+
+  /* ---------- save path A: download ---------- */
+  function downloadBlob(name, blob) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
+  }
+  $("btn-download").onclick = function () {
+    saveFormToData();
+    var d = data[current];
+    downloadBlob(current + ".json", new Blob([JSON.stringify(d, null, 2)], { type: "application/json" }));
+    (newFiles[current] || []).forEach(function (nf, i) {
+      setTimeout(function () { downloadBlob(nf.name, nf.file); }, 600 * (i + 1));
+    });
+    status("Downloaded " + current + ".json" + (newFiles[current].length ? " + " + newFiles[current].length + " picture(s)." : "."), true);
+  };
+
+  /* ---------- save path B: publish via GitHub API ---------- */
+  $("gh-save").onclick = function () {
+    localStorage.setItem("ipg_gh_user", $("gh-user").value.trim());
+    localStorage.setItem("ipg_gh_repo", $("gh-repo").value.trim());
+    localStorage.setItem("ipg_gh_token", $("gh-token").value.trim());
+    status("Setup saved on this device.", true);
+  };
+
+  function gh(path, method, body) {
+    var user = ($("gh-user").value || localStorage.getItem("ipg_gh_user") || "").trim();
+    var repo = ($("gh-repo").value || localStorage.getItem("ipg_gh_repo") || "").trim();
+    var token = ($("gh-token").value || localStorage.getItem("ipg_gh_token") || "").trim();
+    if (!user || !repo || !token) { status("Fill in the GitHub setup above first.", false); return Promise.reject(0); }
+    return fetch("https://api.github.com/repos/" + user + "/" + repo + "/contents/" + path, {
+      method: method,
+      headers: { "Authorization": "token " + token, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) {
+      if (!r.ok) throw new Error("GitHub said " + r.status);
+      return r.json();
+    });
+  }
+  function b64(s) {
+    var bytes = new TextEncoder().encode(s); var bin = "";
+    bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+    return btoa(bin);
+  }
+  function dataUrlToB64(du) { return du.split(",")[1]; }
+
+  $("btn-publish").onclick = function () {
+    saveFormToData();
+    var d = data[current];
+    status("Publishing… uploading pictures first.", true);
+    var uploads = (newFiles[current] || []).map(function (nf) {
+      var path = "assets/brands/" + current + "/" + nf.name;
+      return gh(path, "PUT", { message: "Admin: add " + nf.name, content: dataUrlToB64(nf.dataUrl) })
+        .then(function () {
+          d.gallery.push({ src: "../" + path, caption: nf.file.name.replace(/\.[^.]+$/, "").replace(/[-_]/g, " ") });
+        });
+    });
+    Promise.all(uploads).then(function () {
+      newFiles[current] = [];
+      var jsonStr = JSON.stringify(d, null, 2);
+      return gh("brands/" + current + ".json", "GET").then(function (existing) {
+        return gh("brands/" + current + ".json", "PUT", { message: "Admin: update " + current + " page", content: b64(jsonStr), sha: existing.sha });
+      }, function () {
+        return gh("brands/" + current + ".json", "PUT", { message: "Admin: update " + current + " page", content: b64(jsonStr) });
+      });
+    }).then(function () {
+      renderThumbs();
+      status("✓ Published! The " + NAMES[current] + " page will update on the website within a few minutes.", true);
+    }).catch(function (err) {
+      if (err !== 0) status("Publish failed: " + (err.message || err) + ". Check the token has 'repo' permission.", false);
+    });
+  };
+
+  showGate();
+})();
+</script>
+</body>
+</html>
