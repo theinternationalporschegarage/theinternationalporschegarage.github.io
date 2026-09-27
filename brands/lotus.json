@@ -1,0 +1,53 @@
+{
+  "brand": "Lotus",
+  "slug": "lotus",
+  "tagline": "Lotus workshop manuals \u2014 Elise & Evora service & repair. Same-day digital delivery.",
+  "hero_image": "../assets/brands/lotus/45-elise-workshop-manual.jpg",
+  "description_paragraphs": [
+    "Enthusiastic Lotus owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing Porsches and Lotus vehicles \u2014 and Porsche ASE dealer training to back it up \u2014 I understand the real cost of European vehicle repairs.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information, with lifetime access to the material the dealers don't want you to have.",
+    "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
+  ],
+  "bullets": [
+    "Complete Lotus workshop coverage: Elise, Evora and more",
+    "Engine, gearbox, suspension, brakes, electrics, bodywork",
+    "Parts manuals, service information & manuals, electrical manuals",
+    "Fast access to accurate workshop procedures",
+    "Verified step-by-step instructions used by professional mechanics",
+    "Coverage from routine maintenance to complex diagnostics and repairs",
+    "Lifetime access"
+  ],
+  "gallery": [
+    {
+      "src": "../assets/brands/lotus/45-elise-workshop-manual.jpg",
+      "caption": "Lotus Elise workshop manual e-delivery promo"
+    },
+    {
+      "src": "../assets/brands/lotus/57-elise-sale-badge.jpg",
+      "caption": "Lotus Elise workshop manual sale promo"
+    }
+  ],
+  "products": [
+    {
+      "name": "Lotus Elise Workshop Manual (digital)",
+      "price": "$25.49",
+      "description": "Complete Elise service & repair coverage. Delivered digitally the same day.",
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=lotus+elise+workshop+manual"
+    },
+    {
+      "name": "Lotus Evora Workshop Manual (digital)",
+      "price": "$25.49",
+      "description": "Complete Evora service & repair coverage. Delivered digitally the same day.",
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=lotus+evora+workshop+manual"
+    }
+  ],
+  "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=lotus+workshop+manual",
+  "paypal_button_id": "",
+  "paypal_button_html": "",
+  "direct_price": "$25.49",
+  "ebay_price": "$29.99",
+  "dvd_addon_price": "$24.99",
+  "dvd_button_id": "",
+  "dvd_button_html": ""
+}

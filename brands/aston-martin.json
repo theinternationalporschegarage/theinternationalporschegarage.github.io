@@ -1,0 +1,47 @@
+{
+  "brand": "Aston Martin",
+  "slug": "aston-martin",
+  "tagline": "Aston Martin workshop manuals \u2014 V8 Vantage service & repair. Same-day digital delivery.",
+  "hero_image": "../assets/brands/aston-martin/41-aston-martin-engine-manual.jpg",
+  "description_paragraphs": [
+    "Enthusiastic Aston Martin owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles \u2014 and ASE dealer training to back it up \u2014 I understand the real cost of keeping an Aston Martin on the road.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information \u2014 service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
+    "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
+  ],
+  "bullets": [
+    "Aston Martin workshop coverage, including the 4.7 V8 engine & service guide",
+    "Engine, gearbox, suspension, brakes, electrics, bodywork",
+    "Parts manuals, service information & manuals, electrical manuals",
+    "Fast access to accurate workshop procedures",
+    "Verified step-by-step instructions used by professional mechanics",
+    "Coverage from routine maintenance to complex diagnostics and repairs",
+    "Lifetime access"
+  ],
+  "gallery": [
+    {
+      "src": "../assets/brands/aston-martin/41-aston-martin-engine-manual.jpg",
+      "caption": "Aston Martin 4.7 V8 workshop manual & service guide promo"
+    },
+    {
+      "src": "../assets/brands/aston-martin/55-aston-martin-engine-sale.jpg",
+      "caption": "Aston Martin workshop manual & service guide sale promo"
+    }
+  ],
+  "products": [
+    {
+      "name": "Aston Martin V8 Workshop Manual (digital)",
+      "price": "$25.49",
+      "description": "Aston Martin 4.7 V8 workshop manual & service guide. Delivered digitally the same day.",
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual"
+    }
+  ],
+  "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual",
+  "paypal_button_id": "",
+  "paypal_button_html": "",
+  "direct_price": "$25.49",
+  "ebay_price": "$29.99",
+  "dvd_addon_price": "$24.99",
+  "dvd_button_id": "",
+  "dvd_button_html": ""
+}
