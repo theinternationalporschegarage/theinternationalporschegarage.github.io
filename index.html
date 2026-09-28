@@ -7,6 +7,7 @@
   <meta name="description" content="Workshop & service manuals for Porsche, Range Rover, Lotus and Aston Martin. Buy direct & save 15% — $25.49 vs $29.99 on eBay. Same-day digital delivery.">
   <link rel="icon" href="assets/ipg-logo.jpg">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
 </head>
 <body>
 
@@ -34,6 +35,27 @@
   <a class="btn" href="#brands">Choose Your Brand</a>
   <a class="btn ghost" href="https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1" rel="noopener">Shop All on eBay</a>
 </div>
+
+<section class="block" id="checklist">
+  <div class="wrap">
+    <h2 class="center">Free 996 Buyer's Checklist</h2>
+    <p class="lead center" style="margin:0 auto 6px;">12 things to check before you buy a 996 — IMS, bore scoring, over-rev reports and all. Join the garage newsletter and the checklist lands in your inbox.</p>
+    <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/theinternational" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/theinternational','popupwindow')">
+      <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+      <input type="submit" class="btn" value="Send me the checklist">
+    </form>
+    <p class="center"><small>DIY tips, buying advice and new manual drops. Unsubscribe anytime.</small></p>
+  </div>
+</section>
+
+<section class="block alt" id="bundle">
+  <div class="wrap">
+    <h2 class="center">Buy 3, Get 1 Free</h2>
+    <p class="lead center" style="margin:0 auto 6px;">Any <span class="bundle-price">4 workshop manuals for $76.47</span> — mix Porsche, Range Rover, Lotus and Aston Martin however you like.</p>
+    <div class="buybox" id="bundle-box"></div>
+    <p class="center"><small>After checkout, message us on <a href="https://www.facebook.com/theinternationalporschegarage" rel="noopener">Facebook</a> or eBay with your 4 picks — delivered digitally the same day.</small></p>
+  </div>
+</section>
 
 <section class="block" id="brands">
   <div class="wrap">
@@ -110,6 +132,26 @@
     </div>
   </div>
 </footer>
+
+<script>
+(function () {
+  // Bundle: buy 3 get 1 free — any 4 manuals for $76.47.
+  // Peter creates the $76.47 hosted button in PayPal; paste its ID below to go live.
+  var BUNDLE_BUTTON_ID = "";
+  var box = document.getElementById("bundle-box");
+  if (BUNDLE_BUTTON_ID && window.paypal && paypal.HostedButtons) {
+    box.innerHTML = "<h3>Pay with PayPal — $76.47</h3>";
+    var div = document.createElement("div");
+    div.id = "paypal-container-" + BUNDLE_BUTTON_ID;
+    box.appendChild(div);
+    paypal.HostedButtons({ hostedButtonId: BUNDLE_BUTTON_ID }).render("#" + div.id);
+  } else {
+    box.innerHTML = '<p class="muted">Bundle checkout opens this week — until then, message us on ' +
+      '<a href="https://www.facebook.com/theinternationalporschegarage" rel="noopener">Facebook</a> ' +
+      'or eBay with your 4 picks and we\'ll get you sorted.</p>';
+  }
+})();
+</script>
 
 </body>
 </html>

@@ -175,3 +175,10 @@ ul.ticks li::before { content: "✓"; color: var(--gold); position: absolute; le
 .savebar { position: sticky; bottom: 0; background: var(--coal); border-top: 2px solid var(--gold-dim); padding: 14px 20px; display: flex; gap: 10px; margin: 24px -20px 0; }
 .savebar .btn { flex: 1; padding: 14px 10px; font-size: .95rem; }
 .bigbtn { display: block; width: 100%; margin: 10px 0; }
+
+/* Newsletter signup + bundle */
+.signup { display: flex; gap: 10px; justify-content: center; margin: 18px auto 10px; max-width: 520px; flex-wrap: wrap; }
+.signup input[type=email] { flex: 1; min-width: 220px; background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 12px 14px; font-size: 1rem; }
+.signup input[type=email]:focus { outline: none; border-color: var(--gold); }
+.signup .btn { border: none; cursor: pointer; }
+.bundle-price { font-size: 1.4rem; color: var(--gold); font-weight: 800; }
