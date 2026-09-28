@@ -175,12 +175,20 @@
       d.videos.forEach(function (v) {
         var fig = document.createElement("figure");
         var wrap = document.createElement("div"); wrap.className = "video-wrap";
-        var fr = document.createElement("iframe");
-        fr.src = "https://www.youtube.com/embed/" + v.id;
-        fr.title = v.title || (d.brand + " video");
-        fr.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-        fr.allowFullscreen = true; fr.loading = "lazy";
-        wrap.appendChild(fr); fig.appendChild(wrap);
+        if (v.src) {
+          var vd = document.createElement("video");
+          vd.src = v.src; vd.controls = true; vd.preload = "metadata";
+          vd.title = v.title || (d.brand + " video");
+          wrap.appendChild(vd);
+        } else {
+          var fr = document.createElement("iframe");
+          fr.src = "https://www.youtube.com/embed/" + v.id;
+          fr.title = v.title || (d.brand + " video");
+          fr.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+          fr.allowFullscreen = true; fr.loading = "lazy";
+          wrap.appendChild(fr);
+        }
+        fig.appendChild(wrap);
         var vcap = document.createElement("figcaption"); vcap.textContent = v.title || "";
         fig.appendChild(vcap); vids.appendChild(fig);
       });
