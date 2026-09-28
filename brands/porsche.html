@@ -121,9 +121,17 @@
       var pr = document.createElement("span"); pr.className = "price";
       pr.innerHTML = p.price + " · digital"; c.appendChild(pr);
       var dp = document.createElement("p"); dp.textContent = p.description || ""; c.appendChild(dp);
-      if (p.ebay_link) {
-        var a = document.createElement("a"); a.href = p.ebay_link; a.rel = "noopener"; a.target = "_blank";
-        a.textContent = "Get this on eBay →"; c.appendChild(a);
+      if (p.ebay_link || d.paypal_button_id) {
+        var links = document.createElement("div"); links.className = "buy-links";
+        if (d.paypal_button_id) {
+          var pp = document.createElement("a"); pp.href = "#paypal-box";
+          pp.textContent = "Pay with PayPal →"; links.appendChild(pp);
+        }
+        if (p.ebay_link) {
+          var a = document.createElement("a"); a.href = p.ebay_link; a.rel = "noopener"; a.target = "_blank";
+          a.textContent = "Get this on eBay →"; links.appendChild(a);
+        }
+        c.appendChild(links);
       }
       grid.appendChild(c);
     });

@@ -117,6 +117,8 @@ ul.ticks li::before { content: "✓"; color: var(--gold); position: absolute; le
 }
 .buybox h3 { color: var(--gold); margin-bottom: 10px; }
 .buybox .muted, p.muted { color: var(--muted); font-size: .95rem; }
+.buy-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; }
+.buy-links a { white-space: nowrap; }
 .gallery {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px; margin-top: 28px;
