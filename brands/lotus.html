@@ -52,6 +52,12 @@
     <div class="gallery" id="brand-gallery"></div>
   </section>
 
+  <section class="block" id="videos-section" hidden>
+    <h2 class="center">From the garage</h2>
+    <p class="lead center" style="margin:0 auto;">Real builds and walkthroughs from our shop.</p>
+    <div class="videos" id="brand-videos"></div>
+  </section>
+
   <section class="block alt">
     <h2 class="center">Want the DVD?</h2>
     <p class="lead center" style="margin:0 auto 18px;">The base product is digital — nothing shipped. Prefer a physical copy? Add the DVD + USA shipping for <strong id="dvd-price"></strong>.</p>
@@ -154,6 +160,23 @@
       var cap = document.createElement("figcaption"); cap.textContent = g.caption || "";
       fig.appendChild(img); fig.appendChild(cap); gal.appendChild(fig);
     });
+    var vsec = document.getElementById("videos-section");
+    var vids = document.getElementById("brand-videos"); vids.innerHTML = "";
+    if (d.videos && d.videos.length) {
+      vsec.hidden = false;
+      d.videos.forEach(function (v) {
+        var fig = document.createElement("figure");
+        var wrap = document.createElement("div"); wrap.className = "video-wrap";
+        var fr = document.createElement("iframe");
+        fr.src = "https://www.youtube.com/embed/" + v.id;
+        fr.title = v.title || (d.brand + " video");
+        fr.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        fr.allowFullscreen = true; fr.loading = "lazy";
+        wrap.appendChild(fr); fig.appendChild(wrap);
+        var vcap = document.createElement("figcaption"); vcap.textContent = v.title || "";
+        fig.appendChild(vcap); vids.appendChild(fig);
+      });
+    } else { vsec.hidden = true; }
     document.getElementById("dvd-price").textContent = d.dvd_addon_price;
     var dbox = document.getElementById("dvd-box");
     if (d.dvd_button_id) {
