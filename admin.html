@@ -73,11 +73,11 @@
   </label>
 
   <h3 style="color:var(--gold);margin-top:24px;">PayPal checkout</h3>
-  <p class="hint">Paste the button code Edison gives you after PayPal setup. Until then the page shows an eBay link instead — nothing breaks.</p>
-  <label>PayPal "Buy Now" button code (digital manual)</label>
-  <textarea id="f-paypal" rows="3" placeholder="Paste the PayPal button HTML here"></textarea>
-  <label>PayPal DVD add-on button code ($24.99)</label>
-  <textarea id="f-dvd" rows="3" placeholder="Paste the DVD button HTML here"></textarea>
+  <p class="hint">Paste the hosted button ID Edison gives you (PayPal dashboard → Payment Links &amp; Buttons → the button's ID, e.g. ZRVBZSAEA2QKS). Until then the page shows an eBay link instead — nothing breaks.</p>
+  <label>PayPal hosted button ID (digital manual)</label>
+  <textarea id="f-paypal" rows="2" placeholder="Paste the PayPal hosted button ID here"></textarea>
+  <label>PayPal DVD add-on hosted button ID ($24.99)</label>
+  <textarea id="f-dvd" rows="2" placeholder="Paste the DVD button ID here"></textarea>
 
   <h3 style="color:var(--gold);margin-top:24px;">Save your changes</h3>
   <button class="btn bigbtn" id="btn-download" type="button">⬇ Download updated files</button>
@@ -178,8 +178,8 @@
     $("f-tagline").value = d.tagline || "";
     $("f-desc").value = (d.description_paragraphs || []).join("\n\n");
     $("f-bullets").value = (d.bullets || []).join("\n");
-    $("f-paypal").value = d.paypal_button_html || "";
-    $("f-dvd").value = d.dvd_button_html || "";
+    $("f-paypal").value = d.paypal_button_id || d.paypal_button_html || "";
+    $("f-dvd").value = d.dvd_button_id || d.dvd_button_html || "";
     renderProducts(); renderThumbs();
     $("view-page").href = "brands/" + current + ".html";
   }
@@ -191,8 +191,8 @@
     d.tagline = $("f-tagline").value.trim();
     d.description_paragraphs = $("f-desc").value.split(/\n\s*\n/).map(function (s) { return s.trim(); }).filter(Boolean);
     d.bullets = $("f-bullets").value.split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
-    d.paypal_button_html = $("f-paypal").value.trim();
-    d.dvd_button_html = $("f-dvd").value.trim();
+    d.paypal_button_id = $("f-paypal").value.trim();
+    d.dvd_button_id = $("f-dvd").value.trim();
     var prods = [];
     document.querySelectorAll("#products .prod").forEach(function (el) {
       var name = el.querySelector(".p-name").value.trim();

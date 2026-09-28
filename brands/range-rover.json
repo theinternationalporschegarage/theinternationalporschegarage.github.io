@@ -1,12 +1,12 @@
 {
   "brand": "Range Rover (Land Rover)",
   "slug": "range-rover",
-  "tagline": "Range Rover & Land Rover workshop manuals \u2014 L322, L405, Sport & Discovery. Same-day digital delivery.",
+  "tagline": "Range Rover & Land Rover workshop manuals — L322, L405, Sport & Discovery. Same-day digital delivery.",
   "hero_image": "../assets/brands/range-rover/10-range-rover-workshop.jpg",
   "description_paragraphs": [
     "Enthusiastic Land Rover owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
-    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles \u2014 and ASE dealer training to back it up \u2014 I understand the real cost of keeping a Range Rover on the road.",
-    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information \u2014 service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles — and ASE dealer training to back it up — I understand the real cost of keeping a Range Rover on the road.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information — service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
     "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
   ],
   "bullets": [
@@ -96,7 +96,7 @@
     {
       "name": "Range Rover Workshop Manual (digital)",
       "price": "$25.49",
-      "description": "Full Range Rover service & repair \u2014 L322, L405 and newer. Delivered digitally the same day.",
+      "description": "Full Range Rover service & repair — L322, L405 and newer. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual"
     },
     {
@@ -113,11 +113,11 @@
     }
   ],
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual",
-  "paypal_button_id": "",
+  "paypal_button_id": "LTNHLJJWRVLBU",
   "paypal_button_html": "",
   "direct_price": "$25.49",
   "ebay_price": "$29.99",
   "dvd_addon_price": "$24.99",
-  "dvd_button_id": "",
+  "dvd_button_id": "4W4AVVSTFPTJ2",
   "dvd_button_html": ""
 }
