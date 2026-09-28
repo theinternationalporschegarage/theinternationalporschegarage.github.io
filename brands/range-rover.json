@@ -1,12 +1,12 @@
 {
   "brand": "Range Rover (Land Rover)",
   "slug": "range-rover",
-  "tagline": "Range Rover & Land Rover workshop manuals — L322, L405, Sport & Discovery. Same-day digital delivery.",
-  "hero_image": "../assets/brands/range-rover/10-range-rover-workshop.jpg",
+  "tagline": "Range Rover & Land Rover workshop manuals \u2014 L322, L405, Sport & Discovery. Same-day digital delivery.",
+  "hero_image": "../assets/brands/range-rover/ebay-116346151803.jpg",
   "description_paragraphs": [
     "Enthusiastic Land Rover owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
-    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles — and ASE dealer training to back it up — I understand the real cost of keeping a Range Rover on the road.",
-    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information — service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles \u2014 and ASE dealer training to back it up \u2014 I understand the real cost of keeping a Range Rover on the road.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information \u2014 service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
     "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
   ],
   "bullets": [
@@ -20,83 +20,87 @@
   ],
   "gallery": [
     {
-      "src": "../assets/brands/range-rover/09-range-rover-workshop-sale.jpg",
-      "caption": "Range Rover workshop manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-116346151803.jpg",
+      "caption": "Range Rover L322 2001-2013 Workshop Service Repair Manual 9000+ Pages"
     },
     {
-      "src": "../assets/brands/range-rover/10-range-rover-workshop.jpg",
-      "caption": "Range Rover workshop manual promo"
+      "src": "../assets/brands/range-rover/ebay-117248643738.jpg",
+      "caption": "Land Rover Defender 1983-2012 Workshop Service Repair Manual 5000+pg"
     },
     {
-      "src": "../assets/brands/range-rover/20-range-rover-sport-manual.jpg",
-      "caption": "Range Rover Sport workshop and owners manual promo"
+      "src": "../assets/brands/range-rover/ebay-117407203918.jpg",
+      "caption": "Land Rover Defender 2020-2027 Workshop Service Repair Manual 12000pg"
     },
     {
-      "src": "../assets/brands/range-rover/21-range-rover-white-manual.jpg",
-      "caption": "White Range Rover workshop and owners manual promo"
+      "src": "../assets/brands/range-rover/ebay-116330878790.jpg",
+      "caption": "Land Rover Discovery 1 1989-1998 Workshop Owners Service Repair Manual 5000+pg"
     },
     {
-      "src": "../assets/brands/range-rover/26-range-rover-workshop.jpg",
-      "caption": "Black Range Rover workshop manual promo"
+      "src": "../assets/brands/range-rover/ebay-117248472294.jpg",
+      "caption": "Land Rover Discovery 2 1999-2004 Owners Service Workshop Repair Manual 10000pg"
     },
     {
-      "src": "../assets/brands/range-rover/27-range-rover-sale-badge.jpg",
-      "caption": "Black Range Rover workshop manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-116580747624.jpg",
+      "caption": "Land Rover Discovery 2 II 1999-2004 Workshop Owners Service Repair Manual"
     },
     {
-      "src": "../assets/brands/range-rover/34-range-rover-sport-sale-badge.jpg",
-      "caption": "Range Rover Sport workshop and owners manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-117248657379.jpg",
+      "caption": "Land Rover Discovery 3 LR3 2004-2009 Owners Service Repair Manual 5000 Pages"
     },
     {
-      "src": "../assets/brands/range-rover/35-range-rover-white-sale-badge.jpg",
-      "caption": "White Range Rover workshop and owners manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-117248472791.jpg",
+      "caption": "Land Rover Discovery 4 LR4 2009-2016 Workshop Service Repair Owners Manual"
     },
     {
-      "src": "../assets/brands/range-rover/42-range-rover-black-workshop.jpg",
-      "caption": "Black Range Rover workshop manual promo"
+      "src": "../assets/brands/range-rover/ebay-117249073449.jpg",
+      "caption": "Land Rover Discovery 5 L462 2017-2026 Workshop Service Repair Manual 15000pg"
     },
     {
-      "src": "../assets/brands/range-rover/43-discovery-white-manual.jpg",
-      "caption": "White Land Rover Discovery workshop + service + electrical manuals promo"
+      "src": "../assets/brands/range-rover/ebay-116330866744.jpg",
+      "caption": "Land Rover Discovery LR4 2009-2016 Owners Workshop Service Repair Manual"
     },
     {
-      "src": "../assets/brands/range-rover/44-discovery-silver-sale-badge.jpg",
-      "caption": "Land Rover Discovery workshop & owners manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-116987531642.jpg",
+      "caption": "Land Rover Discovery Series 1 1989-1998 Service Repair Workshop Manual 5000pg"
     },
     {
-      "src": "../assets/brands/range-rover/47-range-rover-white-new.jpg",
-      "caption": "White Range Rover workshop manual promo"
+      "src": "../assets/brands/range-rover/ebay-117332682977.jpg",
+      "caption": "Land Rover Range Rover Sport L320 2005-2013 Workshop Repair Manual 9000+pg"
     },
     {
-      "src": "../assets/brands/range-rover/48-discovery-black-workshop.jpg",
-      "caption": "Black Land Rover Discovery workshop & owners manual promo"
+      "src": "../assets/brands/range-rover/ebay-117249232371.jpg",
+      "caption": "Range Rover Evoque 2011-2013 Workshop Service Repair Manual 15000 Pages"
     },
     {
-      "src": "../assets/brands/range-rover/49-range-rover-classic-workshop.jpg",
-      "caption": "Classic Range Rover workshop manual promo"
+      "src": "../assets/brands/range-rover/ebay-116306959301.jpg",
+      "caption": "Range Rover L322 2001-2013 Service Repair Owners Workshop Manual 9000+pg"
     },
     {
-      "src": "../assets/brands/range-rover/56-discovery-white-sale-badge.jpg",
-      "caption": "White Land Rover Discovery manuals sale promo"
+      "src": "../assets/brands/range-rover/ebay-116306947462.jpg",
+      "caption": "Range Rover L405 2012-2021 Workshop Service Repair Manual 9000+pg Diesel"
     },
     {
-      "src": "../assets/brands/range-rover/58-range-rover-white-sale-badge.jpg",
-      "caption": "White Range Rover workshop manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-116307097917.jpg",
+      "caption": "Range Rover L460 Workshop Service Repair Manual 12000+ Pages Diesel"
     },
     {
-      "src": "../assets/brands/range-rover/59-discovery-black-sale-badge.jpg",
-      "caption": "Black Land Rover Discovery manuals sale promo"
+      "src": "../assets/brands/range-rover/ebay-116580754337.jpg",
+      "caption": "Range Rover P38 1994-2001 Workshop Service Repair Manual Mk2"
     },
     {
-      "src": "../assets/brands/range-rover/60-range-rover-classic-sale-badge.jpg",
-      "caption": "Classic Range Rover workshop manual sale promo"
+      "src": "../assets/brands/range-rover/ebay-116330799663.jpg",
+      "caption": "Range Rover Sport L320 2005-2013 Service Repair Manual 9000+pg Gas Diesel"
+    },
+    {
+      "src": "../assets/brands/range-rover/ebay-116330859246.jpg",
+      "caption": "Range Rover Sport L494 2014-2017 Owners Workshop Service Repair Manual"
     }
   ],
   "products": [
     {
       "name": "Range Rover Workshop Manual (digital)",
       "price": "$25.49",
-      "description": "Full Range Rover service & repair — L322, L405 and newer. Delivered digitally the same day.",
+      "description": "Full Range Rover service & repair \u2014 L322, L405 and newer. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual"
     },
     {
