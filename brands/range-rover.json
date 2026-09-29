@@ -101,19 +101,22 @@
       "name": "Range Rover Workshop Manual (digital)",
       "price": "$25.49",
       "description": "Full Range Rover service & repair — L322, L405 and newer. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/4303056674"
     },
     {
       "name": "Range Rover Sport Workshop Manual (digital)",
       "price": "$25.49",
       "description": "Sport service & repair coverage. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+sport+workshop+manual"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+sport+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/4521989586"
     },
     {
       "name": "Discovery Workshop Manual (digital)",
       "price": "$25.49",
       "description": "Discovery service & repair coverage. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=discovery+workshop+manual"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=discovery+workshop+manual",
+      "etsy_link": "https://www.etsy.com/shop/internationalgarage?search_query=discovery+workshop+manual"
     }
   ],
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual",

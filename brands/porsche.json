@@ -1,19 +1,19 @@
 {
   "brand": "Porsche",
   "slug": "porsche",
-  "tagline": "Porsche workshop manuals \u2014 911, Boxster, Cayman, Cayenne, Panamera, Macan & Taycan. Same-day digital delivery.",
+  "tagline": "Porsche workshop manuals — 911, Boxster, Cayman, Cayenne, Panamera, Macan & Taycan. Same-day digital delivery.",
   "hero_image": "../assets/brands/porsche/ebay-116914563737.jpg",
   "description_paragraphs": [
     "Enthusiastic Porsche owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
-    "With over 20 years of hands-on experience buying, servicing, and repairing Porsches \u2014 and Porsche ASE dealer training to back it up \u2014 I understand the real cost of European vehicle repairs.",
-    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information, with new content added \u2014 lifetime access to the material the dealers don't want you to have.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing Porsches — and Porsche ASE dealer training to back it up — I understand the real cost of European vehicle repairs.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information, with new content added — lifetime access to the material the dealers don't want you to have.",
     "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
   ],
   "bullets": [
-    "Includes DIY repair manuals covering 6,000+ pages (models 1997\u20132016, multiple manuals)",
+    "Includes DIY repair manuals covering 6,000+ pages (models 1997–2016, multiple manuals)",
     "Parts manuals, service information & manuals, electrical manuals",
     "Fast access to accurate workshop procedures",
-    "Save on repair bills \u2014 or negotiate reduced rates with your dealer",
+    "Save on repair bills — or negotiate reduced rates with your dealer",
     "Verified step-by-step instructions used by professional mechanics",
     "Coverage from routine maintenance to complex diagnostics and repairs",
     "Lifetime access"
@@ -132,26 +132,30 @@
     {
       "name": "911 Workshop Manual (digital)",
       "price": "$25.49",
-      "description": "Complete 911 service & repair coverage \u2014 964, 993, 996, 997, 991, 992. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual"
+      "description": "Complete 911 service & repair coverage — 964, 993, 996, 997, 991, 992. Delivered digitally the same day.",
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/4533117795"
     },
     {
       "name": "Cayenne Workshop Manual (digital)",
       "price": "$25.49",
       "description": "Cayenne SUV diagnostics, suspension and drivetrain coverage. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/4432321644"
     },
     {
       "name": "Cayman & Boxster Workshop Manual (digital)",
       "price": "$25.49",
-      "description": "Mid-engine service & repair \u2014 986, 987, 981, 718. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual"
+      "description": "Mid-engine service & repair — 986, 987, 981, 718. Delivered digitally the same day.",
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/1866547773"
     },
     {
       "name": "Macan / Panamera / Taycan Workshop Manual (digital)",
       "price": "$25.49",
       "description": "Service coverage for Macan, Panamera and Taycan. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual",
+      "etsy_link": "https://www.etsy.com/listing/4303052777"
     }
   ],
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=porsche+workshop+manual",
@@ -165,15 +169,15 @@
   "videos": [
     {
       "id": "HktNQOJSjVE",
-      "title": "Porsche 996 GT3 RS Conversion \u2014 Before the Build"
+      "title": "Porsche 996 GT3 RS Conversion — Before the Build"
     },
     {
       "id": "4jaRCUce6mw",
-      "title": "Porsche 993 (1993\u20131998) \u2014 Last Air-Cooled Flat-Six"
+      "title": "Porsche 993 (1993–1998) — Last Air-Cooled Flat-Six"
     },
     {
       "id": "5MQCNHvRCFo",
-      "title": "Stop Scrolling Porsche Owners \u2014 The Garage Family Is Here"
+      "title": "Stop Scrolling Porsche Owners — The Garage Family Is Here"
     },
     {
       "id": "7ZMGLxNvaow",

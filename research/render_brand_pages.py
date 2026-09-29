@@ -129,7 +129,7 @@ TEMPLATE = """<!DOCTYPE html>
       var pr = document.createElement("span"); pr.className = "price";
       pr.innerHTML = p.price + " · digital"; c.appendChild(pr);
       var dp = document.createElement("p"); dp.textContent = p.description || ""; c.appendChild(dp);
-      if (p.ebay_link || d.paypal_button_id) {
+      if (p.ebay_link || p.etsy_link || d.paypal_button_id) {
         var links = document.createElement("div"); links.className = "buy-links";
         if (d.paypal_button_id) {
           var pp = document.createElement("a"); pp.href = "#paypal-box";
@@ -138,6 +138,10 @@ TEMPLATE = """<!DOCTYPE html>
         if (p.ebay_link) {
           var a = document.createElement("a"); a.href = p.ebay_link; a.rel = "noopener"; a.target = "_blank";
           a.textContent = "Get this on eBay →"; links.appendChild(a);
+        }
+        if (p.etsy_link) {
+          var e = document.createElement("a"); e.href = p.etsy_link; e.rel = "noopener"; e.target = "_blank";
+          e.textContent = "Get this on Etsy →"; links.appendChild(e);
         }
         c.appendChild(links);
       }
