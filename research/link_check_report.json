@@ -1,0 +1,1566 @@
+{
+ "checked_at": "2026-09-28 21:02 EDT",
+ "total_links": 156,
+ "external_unique": 15,
+ "dead": [
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "index.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo\u00a4cy=USD",
+   "kind": "external",
+   "status": null,
+   "note": "UnicodeEncodeError: 'ascii' codec can't encode character '\\xa4' in position 152: ordinal not in range(128)"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://click.linksynergy.com/deeplink?id=HTCeAkO/Ac4&mid=43304&murl=https%3A%2F%2Fwww.pelicanparts.com%2FPorsche%2Fcatalog%2Fcatalog.htm",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  }
+ ],
+ "all": [
+  {
+   "page": "404.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "404.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "404.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "l322-buyers-guide.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "about.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "manuals.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "admin.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "admin.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "admin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "admin.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "admin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo&currency=USD",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html#bundle",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/aston-martin.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo&currency=USD",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html#bundle",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/lotus.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo&currency=USD",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html#bundle",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/porsche.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "../styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo&currency=USD",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "../assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html#bundle",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "brands/range-rover.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "../about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "script",
+   "attr": "src",
+   "url": "https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&components=hosted-buttons&enable-funding=venmo\u00a4cy=USD",
+   "kind": "external",
+   "status": null,
+   "note": "UnicodeEncodeError: 'ascii' codec can't encode character '\\xa4' in position 152: ordinal not in range(128)"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "l322-buyers-guide.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "996-buyers-checklist.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "cayenne-buyers-checklist.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "macan-buyers-checklist.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "l322-buyers-checklist.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "l405-buyers-checklist.pdf",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/brands/porsche/ebay-116914563737.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/brands/range-rover/ebay-116346151803.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/brands/lotus/ebay-116580753707.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/brands/aston-martin/ebay-116252899234.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://click.linksynergy.com/deeplink?id=HTCeAkO/Ac4&mid=43304&murl=https%3A%2F%2Fwww.pelicanparts.com%2FPorsche%2Fcatalog%2Fcatalog.htm",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.kqzyfj.com/click-101884568-15735466?url=https%3A%2F%2Frexing.com%2Fcollections%2Fshop-all-dash-cams",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "manuals.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "index.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "link",
+   "attr": "href",
+   "url": "styles.css",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "img",
+   "attr": "src",
+   "url": "assets/ipg-logo.jpg",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/range-rover.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/lotus.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/aston-martin.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "l322-buyers-guide.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "brands/porsche.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=boxster+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=panamera+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=taycan+workshop+manual",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.facebook.com/theinternationalporschegarage",
+   "kind": "external",
+   "status": 400,
+   "note": "HTTP 400"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.tiktok.com/@theinternationalporsche",
+   "kind": "external",
+   "status": 403,
+   "note": "HTTP 403"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "https://www.pinterest.com/theinternationalporschegarage/",
+   "kind": "external",
+   "status": 200,
+   "note": "ok"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "index.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  },
+  {
+   "page": "manuals.html",
+   "tag": "a",
+   "attr": "href",
+   "url": "about.html",
+   "kind": "internal",
+   "status": 200,
+   "note": "exists"
+  }
+ ]
+}

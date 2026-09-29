@@ -1,13 +1,20 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""Render brands/*.html from brands/*.json (JSON inlined as fallback; live fetch preferred)."""
+import json, os
+
+STAGING = os.path.expanduser('~/workspace/site-deploys/garage-brand-pages')
+BR = os.path.join(STAGING, 'brands')
+
+TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Porsche Workshop Manuals — The International Porsche Garage</title>
-  <meta name="description" content="Porsche workshop manuals — 911, Boxster, Cayman, Cayenne, Panamera, Macan &amp; Taycan. Same-day digital delivery.">
+  <title>%%BRAND%% Workshop Manuals — The International Porsche Garage</title>
+  <meta name="description" content="%%TAGLINE_ESC%%">
   <link rel="icon" href="../assets/ipg-logo.jpg">
   <link rel="stylesheet" href="../styles.css">
-  <script id="brand-data" type="application/json">{"brand":"Porsche","slug":"porsche","tagline":"Porsche workshop manuals \u2014 911, Boxster, Cayman, Cayenne, Panamera, Macan & Taycan. Same-day digital delivery.","hero_image":"../assets/brands/porsche/ebay-116914563737.jpg","description_paragraphs":["Enthusiastic Porsche owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.","With over 20 years of hands-on experience buying, servicing, and repairing Porsches \u2014 and Porsche ASE dealer training to back it up \u2014 I understand the real cost of European vehicle repairs.","This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information, with new content added \u2014 lifetime access to the material the dealers don't want you to have.","Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."],"bullets":["Includes DIY repair manuals covering 6,000+ pages (models 1997\u20132016, multiple manuals)","Parts manuals, service information & manuals, electrical manuals","Fast access to accurate workshop procedures","Save on repair bills \u2014 or negotiate reduced rates with your dealer","Verified step-by-step instructions used by professional mechanics","Coverage from routine maintenance to complex diagnostics and repairs","Lifetime access"],"gallery":[{"src":"../assets/brands/porsche/ebay-116914563737.jpg","caption":"Porsche 911 997 997.1 997.2 2004-2012 Workshop Service Repair Manual 6000pg"},{"src":"../assets/brands/porsche/ebay-116737931931.jpg","caption":"Porsche 911 991 2012-2017 Workshop Service Repair Owners Manual"},{"src":"../assets/brands/porsche/ebay-116914565336.jpg","caption":"Porsche 911 991 991.1 991.2 2012-2019 Workshop Service Repair Owners Manual"},{"src":"../assets/brands/porsche/ebay-116824527077.jpg","caption":"Porsche 911 996 1997-2006 Owners Manual Workshop DIY Package 6000 Pages"},{"src":"../assets/brands/porsche/ebay-116687429893.jpg","caption":"Porsche 911 996 1997-2006 Workshop Service Repair Manual 6000+ Pages"},{"src":"../assets/brands/porsche/ebay-116687430672.jpg","caption":"Porsche 911 997 997.1 997.2 2004-2012 Service Repair Workshop Manual 6000pg"},{"src":"../assets/brands/porsche/ebay-116580736429.jpg","caption":"Porsche 911 Carrera 1972-1976 Workshop Service Repair Manual Classic"},{"src":"../assets/brands/porsche/ebay-116988275074.jpg","caption":"Porsche 912E 1968-1972 Workshop Service Repair Manual Classic"},{"src":"../assets/brands/porsche/ebay-116687433518.jpg","caption":"Porsche 914 Workshop Service Repair Parts Manual 4000+ Pages Hard To Find"},{"src":"../assets/brands/porsche/ebay-116687432165.jpg","caption":"Porsche 924 Workshop Service Repair Parts Owners Manual 2000+ Pages"},{"src":"../assets/brands/porsche/ebay-117397503556.jpg","caption":"Porsche 928 Workshop Service Repair Parts Owners Manual 2000+ Pages"},{"src":"../assets/brands/porsche/ebay-117397988573.jpg","caption":"Porsche 944 Workshop Service Repair Parts Owners Manual 2000+ Pages"},{"src":"../assets/brands/porsche/ebay-116953028790.jpg","caption":"Porsche 968 Workshop Service Repair Parts Owners Manual 2000+ Pages"},{"src":"../assets/brands/porsche/ebay-117332706293.jpg","caption":"Porsche Boxster 986 987 981 Complete Workshop DIY Manual 6000+ Pages"},{"src":"../assets/brands/porsche/ebay-116979725791.jpg","caption":"Porsche Boxster 986 987 981 Workshop DIY Service Repair Package 6000+pg"},{"src":"../assets/brands/porsche/ebay-116687431554.jpg","caption":"Porsche Boxster Cayman 986 987 981 1997-2016 Workshop Service Repair Manual"},{"src":"../assets/brands/porsche/ebay-116919719623.jpg","caption":"Porsche Cayenne 2003-2018 All Models Workshop Service Repair Manual 6000+pg"},{"src":"../assets/brands/porsche/ebay-117408046718.jpg","caption":"Porsche Cayenne 2003-2018 Complete Workshop Service Repair Manual 6000+ Pages"},{"src":"../assets/brands/porsche/ebay-116967300792.jpg","caption":"Porsche Cayenne 2003-2018 DIY Workshop Service Repair Manual All Models 6000pg"},{"src":"../assets/brands/porsche/ebay-117332016713.jpg","caption":"Porsche Cayenne 2003-2018 Service Repair Workshop Owners Manual 6000+ Pages"},{"src":"../assets/brands/porsche/ebay-116825829477.jpg","caption":"Porsche Cayman Boxster 1997-2016 Owners Workshop Service Repair Manual 6000pg"},{"src":"../assets/brands/porsche/ebay-116837046848.jpg","caption":"Porsche Cayman Boxster 1997-2016 Service Repair Workshop Manual 6000pg DIY"},{"src":"../assets/brands/porsche/ebay-116824527542.jpg","caption":"Porsche Macan 2014-2018 All Models Owners Workshop Service Repair Manual"},{"src":"../assets/brands/porsche/ebay-116687435068.jpg","caption":"Porsche Macan 2014-2018 Owners DIY Workshop Service Repair Manual 6000+pg"},{"src":"../assets/brands/porsche/ebay-116977737291.jpg","caption":"Porsche Macan S Turbo 2014-2018 Workshop Service Repair Manual DIY 6000+pg"},{"src":"../assets/brands/porsche/ebay-116836612814.jpg","caption":"Porsche Panamera 2014-2016 Workshop Service Repair Owners Manual 6000+ Pages"},{"src":"../assets/brands/porsche/ebay-116687436581.jpg","caption":"Porsche Panamera 970 2014-2017 Owners Workshop Service Repair Manual 6000+pg"}],"products":[{"name":"911 Workshop Manual (digital)","price":"$25.49","description":"Complete 911 service & repair coverage \u2014 964, 993, 996, 997, 991, 992. Delivered digitally the same day.","ebay_link":"https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual"},{"name":"Cayenne Workshop Manual (digital)","price":"$25.49","description":"Cayenne SUV diagnostics, suspension and drivetrain coverage. Delivered digitally the same day.","ebay_link":"https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual"},{"name":"Cayman & Boxster Workshop Manual (digital)","price":"$25.49","description":"Mid-engine service & repair \u2014 986, 987, 981, 718. Delivered digitally the same day.","ebay_link":"https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual"},{"name":"Macan / Panamera / Taycan Workshop Manual (digital)","price":"$25.49","description":"Service coverage for Macan, Panamera and Taycan. Delivered digitally the same day.","ebay_link":"https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual"}],"ebay_search_url":"https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=porsche+workshop+manual","paypal_button_id":"ZRVBZSAEA2QKS","paypal_button_html":"","direct_price":"$25.49","ebay_price":"$29.99","dvd_addon_price":"$24.99","dvd_button_id":"4W4AVVSTFPTJ2","dvd_button_html":"","videos":[{"id":"HktNQOJSjVE","title":"Porsche 996 GT3 RS Conversion \u2014 Before the Build"},{"id":"4jaRCUce6mw","title":"Porsche 993 (1993\u20131998) \u2014 Last Air-Cooled Flat-Six"},{"id":"5MQCNHvRCFo","title":"Stop Scrolling Porsche Owners \u2014 The Garage Family Is Here"},{"id":"7ZMGLxNvaow","title":"Which Team Are You? Porsche, Aston Martin, Lotus or Range Rover"},{"id":"GWej2_vA-E0","title":"Why the 996 Is the Last Cheap Porsche"}]}</script>
+  <script id="brand-data" type="application/json">%%JSON_INLINE%%</script>
   <script src="https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&amp;components=hosted-buttons&amp;enable-funding=venmo&amp;currency=USD"></script>
 </head>
 <body>
@@ -29,8 +36,8 @@
 </header>
 
 <div class="hero brand-hero">
-  <h1 id="brand-name">Porsche</h1>
-  <p class="tag" id="brand-tagline">Porsche workshop manuals — 911, Boxster, Cayman, Cayenne, Panamera, Macan &amp; Taycan. Same-day digital delivery.</p>
+  <h1 id="brand-name">%%BRAND%%</h1>
+  <p class="tag" id="brand-tagline">%%TAGLINE%%</p>
 </div>
 
 <main class="wrap">
@@ -79,7 +86,6 @@
     </div>
     <div class="links">
       <a href="https://ebay.com/inf/internationalporschegarage?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339212462&toolid=80008&mkevt=1" rel="noopener">eBay store</a>
-      <a href="https://internationalgarage.etsy.com" rel="noopener">Etsy shop</a>
       <a href="https://www.facebook.com/theinternationalporschegarage" rel="noopener">Facebook</a>
       <a href="https://www.tiktok.com/@theinternationalporsche" rel="noopener">TikTok</a>
       <a href="https://www.pinterest.com/theinternationalporschegarage/" rel="noopener">Pinterest</a>
@@ -217,3 +223,18 @@
 </script>
 </body>
 </html>
+"""
+
+import html
+for slug in ["porsche", "range-rover", "lotus", "aston-martin"]:
+    with open(os.path.join(BR, slug + '.json')) as f:
+        data = json.load(f)
+    js = json.dumps(data, separators=(',', ':')).replace('</', '<\\/')
+    page = TEMPLATE
+    page = page.replace('%%BRAND%%', html.escape(data['brand']))
+    page = page.replace('%%TAGLINE_ESC%%', html.escape(data['tagline'], quote=True))
+    page = page.replace('%%TAGLINE%%', html.escape(data['tagline']))
+    page = page.replace('%%JSON_INLINE%%', js)
+    with open(os.path.join(BR, slug + '.html'), 'w') as f:
+        f.write(page)
+    print('wrote', slug + '.html', len(page), 'bytes')
