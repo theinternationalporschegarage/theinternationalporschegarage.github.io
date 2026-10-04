@@ -2,7 +2,7 @@
   "brand": "Porsche",
   "slug": "porsche",
   "tagline": "Porsche workshop manuals \u2014 911, Boxster, Cayman, Cayenne, Panamera, Macan & Taycan. Same-day digital delivery.",
-  "hero_image": "../assets/brands/porsche/ebay-116914563737.jpg",
+  "hero_image": "../assets/brands/porsche/03-911-carrera-workshop-manual.jpg",
   "description_paragraphs": [
     "Enthusiastic Porsche owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
     "With over 20 years of hands-on experience buying, servicing, and repairing Porsches \u2014 and Porsche ASE dealer training to back it up \u2014 I understand the real cost of European vehicle repairs.",
@@ -20,196 +20,302 @@
   ],
   "gallery": [
     {
-      "src": "../assets/brands/porsche/ebay-116914563737.jpg",
-      "caption": "Porsche 911 997 997.1 997.2 2004-2012 Workshop Service Repair Manual 6000pg"
+      "src": "../assets/brands/porsche/01-cayenne-workshop-manual.jpg",
+      "caption": "01 cayenne workshop manual"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116737931931.jpg",
-      "caption": "Porsche 911 991 2012-2017 Workshop Service Repair Owners Manual"
+      "src": "../assets/brands/porsche/03-911-carrera-workshop-manual.jpg",
+      "caption": "03 911 carrera workshop manual"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116914565336.jpg",
-      "caption": "Porsche 911 991 991.1 991.2 2012-2019 Workshop Service Repair Owners Manual"
+      "src": "../assets/brands/porsche/04-cayman-8000-pages-sale.jpg",
+      "caption": "04 cayman 8000 pages sale"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116824527077.jpg",
-      "caption": "Porsche 911 996 1997-2006 Owners Manual Workshop DIY Package 6000 Pages"
+      "src": "../assets/brands/porsche/05-cayman-8000-pages.jpg",
+      "caption": "05 cayman 8000 pages"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116687429893.jpg",
-      "caption": "Porsche 911 996 1997-2006 Workshop Service Repair Manual 6000+ Pages"
+      "src": "../assets/brands/porsche/06-911-gt3-workshop-sale.jpg",
+      "caption": "06 911 gt3 workshop sale"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116687430672.jpg",
-      "caption": "Porsche 911 997 997.1 997.2 2004-2012 Service Repair Workshop Manual 6000pg"
+      "src": "../assets/brands/porsche/07-911-gt3rs-workshop.jpg",
+      "caption": "07 911 gt3rs workshop"
+    },
+    {
+      "src": "../assets/brands/porsche/08-911-carrera-workshop-sale.jpg",
+      "caption": "08 911 carrera workshop sale"
+    },
+    {
+      "src": "../assets/brands/porsche/12-gt3rs-workshop-e-delivery.jpg",
+      "caption": "12 gt3rs workshop e delivery"
+    },
+    {
+      "src": "../assets/brands/porsche/14-914-workshop-manual.jpg",
+      "caption": "14 914 workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/15-cayenne-workshop-logo.jpg",
+      "caption": "15 cayenne workshop logo"
+    },
+    {
+      "src": "../assets/brands/porsche/16-911-carrera-workshop-logo.jpg",
+      "caption": "16 911 carrera workshop logo"
+    },
+    {
+      "src": "../assets/brands/porsche/17-cayman-8000-pages-logo.jpg",
+      "caption": "17 cayman 8000 pages logo"
+    },
+    {
+      "src": "../assets/brands/porsche/19-cayman-sale-badge.jpg",
+      "caption": "19 cayman sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/22-macan-workshop-manual.jpg",
+      "caption": "22 macan workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/23-911-carrera-sale-badge.jpg",
+      "caption": "23 911 carrera sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/24-gt3rs-sale-badge.jpg",
+      "caption": "24 gt3rs sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/25-gt3rs-workshop-manual.jpg",
+      "caption": "25 gt3rs workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/28-panamera-workshop-manual.jpg",
+      "caption": "28 panamera workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/29-cayenne-workshop-logo-2.jpg",
+      "caption": "29 cayenne workshop logo 2"
+    },
+    {
+      "src": "../assets/brands/porsche/30-911-carrera-workshop-logo-2.jpg",
+      "caption": "30 911 carrera workshop logo 2"
+    },
+    {
+      "src": "../assets/brands/porsche/31-cayman-8000-pages-logo-2.jpg",
+      "caption": "31 cayman 8000 pages logo 2"
+    },
+    {
+      "src": "../assets/brands/porsche/33-cayman-sale-badge-2.jpg",
+      "caption": "33 cayman sale badge 2"
+    },
+    {
+      "src": "../assets/brands/porsche/36-macan-sale-badge.jpg",
+      "caption": "36 macan sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/38-panamera-sale-badge.jpg",
+      "caption": "38 panamera sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/39-924-workshop-manual.jpg",
+      "caption": "39 924 workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/40-914-blue-workshop-manual.jpg",
+      "caption": "40 914 blue workshop manual"
+    },
+    {
+      "src": "../assets/brands/porsche/46-911-classic-red-workshop.jpg",
+      "caption": "46 911 classic red workshop"
+    },
+    {
+      "src": "../assets/brands/porsche/53-924-sale-badge.jpg",
+      "caption": "53 924 sale badge"
+    },
+    {
+      "src": "../assets/brands/porsche/54-914-blue-sale-badge.jpg",
+      "caption": "54 914 blue sale badge"
     },
     {
       "src": "../assets/brands/porsche/ebay-116580736429.jpg",
-      "caption": "Porsche 911 Carrera 1972-1976 Workshop Service Repair Manual Classic"
+      "caption": "ebay 116580736429"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116988275074.jpg",
-      "caption": "Porsche 912E 1968-1972 Workshop Service Repair Manual Classic"
+      "src": "../assets/brands/porsche/ebay-116687429893.jpg",
+      "caption": "ebay 116687429893"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116687433518.jpg",
-      "caption": "Porsche 914 Workshop Service Repair Parts Manual 4000+ Pages Hard To Find"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116687432165.jpg",
-      "caption": "Porsche 924 Workshop Service Repair Parts Owners Manual 2000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-117397503556.jpg",
-      "caption": "Porsche 928 Workshop Service Repair Parts Owners Manual 2000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-117397988573.jpg",
-      "caption": "Porsche 944 Workshop Service Repair Parts Owners Manual 2000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116953028790.jpg",
-      "caption": "Porsche 968 Workshop Service Repair Parts Owners Manual 2000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-117332706293.jpg",
-      "caption": "Porsche Boxster 986 987 981 Complete Workshop DIY Manual 6000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116979725791.jpg",
-      "caption": "Porsche Boxster 986 987 981 Workshop DIY Service Repair Package 6000+pg"
+      "src": "../assets/brands/porsche/ebay-116687430672.jpg",
+      "caption": "ebay 116687430672"
     },
     {
       "src": "../assets/brands/porsche/ebay-116687431554.jpg",
-      "caption": "Porsche Boxster Cayman 986 987 981 1997-2016 Workshop Service Repair Manual"
+      "caption": "ebay 116687431554"
     },
     {
-      "src": "../assets/brands/porsche/ebay-116919719623.jpg",
-      "caption": "Porsche Cayenne 2003-2018 All Models Workshop Service Repair Manual 6000+pg"
+      "src": "../assets/brands/porsche/ebay-116687432165.jpg",
+      "caption": "ebay 116687432165"
     },
     {
-      "src": "../assets/brands/porsche/ebay-117408046718.jpg",
-      "caption": "Porsche Cayenne 2003-2018 Complete Workshop Service Repair Manual 6000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116967300792.jpg",
-      "caption": "Porsche Cayenne 2003-2018 DIY Workshop Service Repair Manual All Models 6000pg"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-117332016713.jpg",
-      "caption": "Porsche Cayenne 2003-2018 Service Repair Workshop Owners Manual 6000+ Pages"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116825829477.jpg",
-      "caption": "Porsche Cayman Boxster 1997-2016 Owners Workshop Service Repair Manual 6000pg"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116837046848.jpg",
-      "caption": "Porsche Cayman Boxster 1997-2016 Service Repair Workshop Manual 6000pg DIY"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116824527542.jpg",
-      "caption": "Porsche Macan 2014-2018 All Models Owners Workshop Service Repair Manual"
+      "src": "../assets/brands/porsche/ebay-116687433518.jpg",
+      "caption": "ebay 116687433518"
     },
     {
       "src": "../assets/brands/porsche/ebay-116687435068.jpg",
-      "caption": "Porsche Macan 2014-2018 Owners DIY Workshop Service Repair Manual 6000+pg"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116977737291.jpg",
-      "caption": "Porsche Macan S Turbo 2014-2018 Workshop Service Repair Manual DIY 6000+pg"
-    },
-    {
-      "src": "../assets/brands/porsche/ebay-116836612814.jpg",
-      "caption": "Porsche Panamera 2014-2016 Workshop Service Repair Owners Manual 6000+ Pages"
+      "caption": "ebay 116687435068"
     },
     {
       "src": "../assets/brands/porsche/ebay-116687436581.jpg",
-      "caption": "Porsche Panamera 970 2014-2017 Owners Workshop Service Repair Manual 6000+pg"
+      "caption": "ebay 116687436581"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116737931931.jpg",
+      "caption": "ebay 116737931931"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116824527077.jpg",
+      "caption": "ebay 116824527077"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116824527542.jpg",
+      "caption": "ebay 116824527542"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116825829477.jpg",
+      "caption": "ebay 116825829477"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116836612814.jpg",
+      "caption": "ebay 116836612814"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116837046848.jpg",
+      "caption": "ebay 116837046848"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116914563737.jpg",
+      "caption": "ebay 116914563737"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116914565336.jpg",
+      "caption": "ebay 116914565336"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116919719623.jpg",
+      "caption": "ebay 116919719623"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116953028790.jpg",
+      "caption": "ebay 116953028790"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116967300792.jpg",
+      "caption": "ebay 116967300792"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116977737291.jpg",
+      "caption": "ebay 116977737291"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116979725791.jpg",
+      "caption": "ebay 116979725791"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-116988275074.jpg",
+      "caption": "ebay 116988275074"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-117332016713.jpg",
+      "caption": "ebay 117332016713"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-117332706293.jpg",
+      "caption": "ebay 117332706293"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-117397503556.jpg",
+      "caption": "ebay 117397503556"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-117397988573.jpg",
+      "caption": "ebay 117397988573"
+    },
+    {
+      "src": "../assets/brands/porsche/ebay-117408046718.jpg",
+      "caption": "ebay 117408046718"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-aos.jpg",
+      "caption": "week1 aos"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-belt.jpg",
+      "caption": "week1 belt"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-brake-fluid.jpg",
+      "caption": "week1 brake fluid"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-control-arms.jpg",
+      "caption": "week1 control arms"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-coolant.jpg",
+      "caption": "week1 coolant"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-filters.jpg",
+      "caption": "week1 filters"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-oil.jpg",
+      "caption": "week1 oil"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-pdk.jpg",
+      "caption": "week1 pdk"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-plugs-coils.jpg",
+      "caption": "week1 plugs coils"
+    },
+    {
+      "src": "../assets/brands/porsche/week1-rms.jpg",
+      "caption": "week1 rms"
     }
   ],
   "products": [
     {
       "name": "911 Workshop Manual (digital)",
-      "price": "$25.49",
+      "price": "$34.79",
       "description": "Complete 911 service & repair coverage \u2014 964, 993, 996, 997, 991, 992. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual",
-      "etsy_link": "https://www.etsy.com/listing/4533117795"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual"
     },
     {
       "name": "Cayenne Workshop Manual (digital)",
-      "price": "$25.49",
+      "price": "$34.79",
       "description": "Cayenne SUV diagnostics, suspension and drivetrain coverage. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual",
-      "etsy_link": "https://www.etsy.com/listing/4432321644"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual"
     },
     {
       "name": "Cayman & Boxster Workshop Manual (digital)",
-      "price": "$25.49",
+      "price": "$34.79",
       "description": "Mid-engine service & repair \u2014 986, 987, 981, 718. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual",
-      "etsy_link": "https://www.etsy.com/listing/1866547773"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual"
     },
     {
       "name": "Macan / Panamera / Taycan Workshop Manual (digital)",
-      "price": "$25.49",
+      "price": "$34.79",
       "description": "Service coverage for Macan, Panamera and Taycan. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual",
-      "etsy_link": "https://www.etsy.com/listing/4303052777"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual"
     }
   ],
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=porsche+workshop+manual",
-  "paypal_button_id": "ZRVBZSAEA2QKS",
+  "paypal_button_id": "",
   "paypal_button_html": "",
-  "direct_price": "$25.49",
-  "ebay_price": "$29.99",
+  "direct_price": "$34.79",
+  "ebay_price": "$34.79",
   "dvd_addon_price": "$24.99",
-  "dvd_button_id": "4W4AVVSTFPTJ2",
-  "dvd_button_html": "",
-  "videos": [
-    {
-      "id": "HktNQOJSjVE",
-      "title": "Porsche 996 GT3 RS Conversion \u2014 Before the Build"
-    },
-    {
-      "id": "4jaRCUce6mw",
-      "title": "Porsche 993 (1993\u20131998) \u2014 Last Air-Cooled Flat-Six"
-    },
-    {
-      "id": "5MQCNHvRCFo",
-      "title": "Stop Scrolling Porsche Owners \u2014 The Garage Family Is Here"
-    },
-    {
-      "id": "7ZMGLxNvaow",
-      "title": "Which Team Are You? Porsche, Aston Martin, Lotus or Range Rover"
-    },
-    {
-      "id": "GWej2_vA-E0",
-      "title": "Why the 996 Is the Last Cheap Porsche"
-    },
-    {
-      "id": "2qlJikIaaF0",
-      "title": "Japan vs US Spec 996 - Grey Import Truth"
-    },
-    {
-      "id": "QVsKKSF1_M0",
-      "title": "IMS Bearing Truth - Porsche 996"
-    },
-    {
-      "id": "pRyArbPfG6Y",
-      "title": "3 Checks Before You Wire Money - 996 Buyer's Guide"
-    },
-    {
-      "id": "5_Jqiv7MZO0",
-      "title": "Interior Tells Everything - 996 60-Second Test"
-    },
-    {
-      "id": "0HNZQ7oIxj8",
-      "title": "Porsche 911 Carrera (996) Workshop Manual"
-    },
-    {
-      "id": "6_QU00BdTyM",
-      "title": "Test Drive That Saves You $10K - Porsche 996"
-    }
-  ]
+  "dvd_button_id": "",
+  "dvd_button_html": ""
 }

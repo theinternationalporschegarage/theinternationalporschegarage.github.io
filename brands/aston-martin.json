@@ -1,12 +1,12 @@
 {
   "brand": "Aston Martin",
   "slug": "aston-martin",
-  "tagline": "Aston Martin workshop manuals — V8 Vantage service & repair. Same-day digital delivery.",
-  "hero_image": "../assets/brands/aston-martin/ebay-116252899234.jpg",
+  "tagline": "Aston Martin workshop manuals \u2014 V8 Vantage service & repair. Same-day digital delivery.",
+  "hero_image": "../assets/brands/aston-martin/41-aston-martin-engine-manual.jpg",
   "description_paragraphs": [
     "Enthusiastic Aston Martin owner? Let experience save you thousands. Shop Service & Repair DIY Compilations is a go-to guide for owners who want to take control of their vehicle maintenance.",
-    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles — and ASE dealer training to back it up — I understand the real cost of keeping an Aston Martin on the road.",
-    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information — service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
+    "With over 20 years of hands-on experience buying, servicing, and repairing European vehicles \u2014 and ASE dealer training to back it up \u2014 I understand the real cost of keeping an Aston Martin on the road.",
+    "This is the same depth of information a dealer technician works from: thousands of pages of comprehensive build, tear-down, and DIY information \u2014 service schedules, torque specs, wiring diagrams, diagnostic procedures and full rebuild coverage.",
     "Support independent expertise and help keep our workshop lights on. Empower yourself with the knowledge and confidence to maintain and repair your vehicle, without the dealer-sized bill."
   ],
   "bullets": [
@@ -20,31 +20,32 @@
   ],
   "gallery": [
     {
+      "src": "../assets/brands/aston-martin/41-aston-martin-engine-manual.jpg",
+      "caption": "41 aston martin engine manual"
+    },
+    {
+      "src": "../assets/brands/aston-martin/55-aston-martin-engine-sale.jpg",
+      "caption": "55 aston martin engine sale"
+    },
+    {
       "src": "../assets/brands/aston-martin/ebay-116252899234.jpg",
-      "caption": "Aston Martin DB7 DB9 Vantage V8 V12 Workshop Service Repair Manual 3000pg"
+      "caption": "ebay 116252899234"
     }
   ],
   "products": [
     {
       "name": "Aston Martin V8 Workshop Manual (digital)",
-      "price": "$25.49",
+      "price": "$34.79",
       "description": "Aston Martin 4.7 V8 workshop manual & service guide. Delivered digitally the same day.",
-      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual",
-      "etsy_link": "https://www.etsy.com/listing/4303066285"
+      "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual"
     }
   ],
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual",
-  "paypal_button_id": "JULSE3EPZJHMA",
+  "paypal_button_id": "",
   "paypal_button_html": "",
-  "direct_price": "$25.49",
-  "ebay_price": "$29.99",
+  "direct_price": "$34.79",
+  "ebay_price": "$34.79",
   "dvd_addon_price": "$24.99",
-  "dvd_button_id": "4W4AVVSTFPTJ2",
-  "dvd_button_html": "",
-  "videos": [
-    {
-      "id": "7ZMGLxNvaow",
-      "title": "Which Team Are You? Porsche, Aston Martin, Lotus or Range Rover"
-    }
-  ]
+  "dvd_button_id": "",
+  "dvd_button_html": ""
 }
