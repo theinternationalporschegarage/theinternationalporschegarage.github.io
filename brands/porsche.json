@@ -317,5 +317,11 @@
   "ebay_price": "$39.99",
   "dvd_addon_price": "$24.99",
   "dvd_button_id": "",
-  "dvd_button_html": ""
+  "dvd_button_html": "",
+  "videos": [
+    {
+      "id": "DzRKjNhid90",
+      "title": "How We Buy Your 996 For You - Find, PPI, Ship, Fix, Deliver"
+    }
+  ]
 }
