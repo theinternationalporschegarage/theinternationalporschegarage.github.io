@@ -171,19 +171,19 @@
   "products": [
     {
       "name": "Range Rover Workshop Manual (digital)",
-      "price": "$34.79",
+      "price": "$39.99",
       "description": "Full Range Rover service & repair \u2014 L322, L405 and newer. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual"
     },
     {
       "name": "Range Rover Sport Workshop Manual (digital)",
-      "price": "$34.79",
+      "price": "$39.99",
       "description": "Sport service & repair coverage. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+sport+workshop+manual"
     },
     {
       "name": "Discovery Workshop Manual (digital)",
-      "price": "$34.79",
+      "price": "$39.99",
       "description": "Discovery service & repair coverage. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=discovery+workshop+manual"
     }
@@ -191,15 +191,9 @@
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=range+rover+workshop+manual",
   "paypal_button_id": "",
   "paypal_button_html": "",
-  "direct_price": "$34.79",
-  "ebay_price": "$34.79",
+  "direct_price": "$39.99",
+  "ebay_price": "$39.99",
   "dvd_addon_price": "$24.99",
   "dvd_button_id": "",
-  "dvd_button_html": "",
-  "videos": [
-    {
-      "id": "9lilfuBHaiQ",
-      "title": "L322 Final Day 7"
-    }
-  ]
+  "dvd_button_html": ""
 }

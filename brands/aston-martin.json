@@ -35,7 +35,7 @@
   "products": [
     {
       "name": "Aston Martin V8 Workshop Manual (digital)",
-      "price": "$34.79",
+      "price": "$39.99",
       "description": "Aston Martin 4.7 V8 workshop manual & service guide. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual"
     }
@@ -43,8 +43,8 @@
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=aston+martin+workshop+manual",
   "paypal_button_id": "",
   "paypal_button_html": "",
-  "direct_price": "$34.79",
-  "ebay_price": "$34.79",
+  "direct_price": "$39.99",
+  "ebay_price": "$39.99",
   "dvd_addon_price": "$24.99",
   "dvd_button_id": "",
   "dvd_button_html": ""
