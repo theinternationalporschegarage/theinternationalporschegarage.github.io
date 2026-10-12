@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Daily sync: add new 996 / L322 buyers-guide YouTube uploads to brand pages.
+"""APPROVED by Peter 2026-10-07 — successor to the retired
+buyers-guide-video-sync cron (removed after its final run on 2026-10-05).
 
-Reads the garage channel RSS feed, picks up videos published in the last
-WINDOW_HOURS whose title mentions 996 (Porsche page) or L322 (Range Rover
-page), appends them to the brand JSON `videos` arrays, re-renders the pages,
-and pushes to GitHub Pages. Idempotent: skips video IDs already present.
+Same as sync_buyers_guide_videos.py, plus: titles mentioning "aston martin"
+go to the Aston Martin brand page (brands/aston-martin.json, already live on
+the site). Skips the follow-bounce outro and any title matching an already
+listed video ID (idempotent, as before).
+
+Proposed schedule: daily@21:08 ET (same slot as the retired job).
 """
 import json
 import os
@@ -18,6 +21,20 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHANNEL_ID = "UCKsRwFcj86LNMTGWlxOBOGw"  # @Theinternationalporsche
 FEED = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"
 WINDOW_HOURS = 30
+
+SKIP_PATTERNS = ("follow bounce", "outro")
+
+
+def slug_for_title(tl: str):
+    if any(p in tl for p in SKIP_PATTERNS):
+        return None
+    if "l322" in tl:
+        return "range-rover"
+    if "aston martin" in tl:
+        return "aston-martin"
+    if "996" in tl:
+        return "porsche"
+    return None
 
 
 def main():
@@ -35,12 +52,8 @@ def main():
             e.find("a:published", ns).text.replace("Z", "+00:00"))
         if pub < cutoff:
             continue
-        tl = title.lower()
-        if "l322" in tl:
-            slug = "range-rover"
-        elif "996" in tl:
-            slug = "porsche"
-        else:
+        slug = slug_for_title(title.lower())
+        if not slug:
             continue
         jp = os.path.join(BASE, "brands", slug + ".json")
         d = json.load(open(jp))
