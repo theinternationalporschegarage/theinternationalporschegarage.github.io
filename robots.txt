@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://theinternationalporschegarage.github.io/sitemap.xml
+Sitemap: https://visitmerida.github.io/garage-website/sitemap.xml
