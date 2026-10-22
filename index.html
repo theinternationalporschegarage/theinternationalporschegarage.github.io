@@ -10,6 +10,65 @@
   <script src="https://www.paypal.com/sdk/js?client-id=BAACAXDh_GmUXd4wZb-8EBJlsgw_2A9mJOTpD0rXL8noN7NnNL7IlCgoK8mFamyL8GmLKQq5UxAEnn_iks&amp;components=hosted-buttons&amp;enable-funding=venmo&amp;currency=USD"></script>
 </head>
 <body>
+<!-- Tradebit buyer greeting: shows only when ?tb=<slug> is present (2026-10-21) -->
+<div id="tb-banner" hidden style="background:#0d0d0d;border-bottom:3px solid #d4af37;color:#f5f5f5;text-align:center;padding:14px 18px;font-family:inherit;">
+  <div style="max-width:900px;margin:0 auto;">
+    <div style="color:#d4af37;font-weight:700;font-size:1.05em;margin-bottom:4px;">Thank you for your Tradebit purchase</div>
+    <div><span data-tb-title></span> &mdash; your secure download instructions are on the way to the email address you used at checkout.</div>
+  </div>
+</div>
+<script>
+(function(){
+  try {
+    var slug = new URLSearchParams(window.location.search).get('tb');
+    if (!slug) return;
+    slug = slug.replace(/\/+$/, '');
+    var titles = {
+    'lotus-elise-2004-2011': 'Lotus Elise 2004-2011 Workshop Manual',
+    'porsche-911-991-2012-2019': 'Porsche 911 991 2012-2019 Workshop Manual',
+    'range-rover-l460-2022-2026': 'Range Rover L460 2022-2026 Workshop Manual',
+    'range-rover-sport-l320-2005-2013': 'Range Rover Sport L320 2005-2013 Workshop Manual',
+    'land-rover-discovery-4-lr4-2009-2016': 'Land Rover Discovery 4 LR4 2009-2016 Workshop Manual',
+    'porsche-911-carrera-1972-1976': 'Porsche 911 Carrera 1972-1976 Workshop Manual',
+    'porsche-macan-2014-2018': 'Porsche Macan 2014-2018 Workshop Manual',
+    'porsche-panamera-970-2014-2016': 'Porsche Panamera 970 2014-2016 Workshop Manual',
+    'porsche-968-1992-1995': 'Porsche 968 1992-1995 Workshop Manual',
+    'porsche-macan-s-turbo-2014-2018': 'Porsche Macan S Turbo 2014-2018 Workshop Manual',
+    'lotus-evora-2009-2021': 'Lotus Evora 2009-2021 Workshop Manual',
+    'land-rover-defender-1983-2012': 'Land Rover Defender 1983-2012 Workshop Manual',
+    'land-rover-discovery-3-lr3-2004-2009': 'Land Rover Discovery 3 LR3 2004-2009 Workshop Manual',
+    'range-rover-evoque-2011-2013': 'Range Rover Evoque 2011-2013 Workshop Manual',
+    'porsche-boxster-cayman-986-987-981-1997-2016': 'Porsche Boxster Cayman 986/987/981 1997-2016 Workshop Manual',
+    'porsche-928-1978-1995': 'Porsche 928 1978-1995 Workshop Manual',
+    'porsche-911-997-2004-2012': 'Porsche 911 997 2004-2012 Workshop Manual',
+    'porsche-911-996-1997-2006': 'Porsche 911 996 1997-2006 Workshop Manual',
+    'porsche-911-996-gt2-gt3-1997-2006': 'Porsche 911 996 GT2 GT3 1997-2006 Workshop Manual',
+    'land-rover-defender-l633-2020-2027': 'Land Rover Defender L633 2020-2027 Workshop Manual',
+    'bmw-e46-3-series-1997-2006': 'BMW E46 3 Series 1997-2006 Workshop Manual',
+    'aston-martin-db7-db9-vantage-1994-2018': 'Aston Martin DB7 DB9 Vantage 1994-2018 Workshop Manual',
+    'range-rover-l405-2012-2021': 'Range Rover L405 2012-2021 Workshop Manual',
+    'range-rover-sport-l494-2014-2022': 'Range Rover Sport L494 2014-2022 Workshop Manual',
+    'land-rover-discovery-1-1989-1998': 'Land Rover Discovery 1 1989-1998 Workshop Manual',
+    'land-rover-discovery-2-1999-2004': 'Land Rover Discovery 2 1999-2004 Workshop Manual',
+    'range-rover-p38-1994-2001': 'Range Rover P38 1994-2001 Workshop Manual',
+    'porsche-924-1976-1988': 'Porsche 924 1976-1988 Workshop Manual',
+    'porsche-cayenne-2003-2018': 'Porsche Cayenne 2003-2018 Workshop Manual',
+    'porsche-cayenne-s-turbo-2003-2018': 'Porsche Cayenne S Turbo 2003-2018 Workshop Manual',
+    'porsche-912e-1968-1972': 'Porsche 912E 1968-1972 Workshop Manual',
+    'land-rover-discovery-5-2017-2026': 'Land Rover Discovery 5 2017-2026 Workshop Manual',
+    'porsche-944-1982-1991': 'Porsche 944 1982-1991 Workshop Manual',
+    'porsche-914-1969-1976': 'Porsche 914 1969-1976 Workshop Manual',
+    'jeep-wrangler-2000-2006': 'Jeep Wrangler 2000-2006 Workshop Manual',
+    'range-rover-l322-2001-2013': 'Range Rover L322 2001-2013 Workshop Service Repair Manual'
+    };
+    var title = titles[slug] || 'Workshop manual';
+    var el = document.querySelector('#tb-banner [data-tb-title]');
+    if (el) el.textContent = title;
+    document.getElementById('tb-banner').hidden = false;
+  } catch (e) { /* banner stays hidden; page unaffected */ }
+})();
+</script>
+
 
 <header class="site">
   <div class="wrap nav">
