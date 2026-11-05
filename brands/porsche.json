@@ -287,25 +287,25 @@
   "products": [
     {
       "name": "911 Workshop Manual (digital)",
-      "price": "$39.99",
+      "price": "$29.99",
       "description": "Complete 911 service & repair coverage \u2014 964, 993, 996, 997, 991, 992. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=911+workshop+manual"
     },
     {
       "name": "Cayenne Workshop Manual (digital)",
-      "price": "$39.99",
+      "price": "$29.99",
       "description": "Cayenne SUV diagnostics, suspension and drivetrain coverage. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayenne+workshop+manual"
     },
     {
       "name": "Cayman & Boxster Workshop Manual (digital)",
-      "price": "$39.99",
+      "price": "$29.99",
       "description": "Mid-engine service & repair \u2014 986, 987, 981, 718. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=cayman+workshop+manual"
     },
     {
       "name": "Macan / Panamera / Taycan Workshop Manual (digital)",
-      "price": "$39.99",
+      "price": "$29.99",
       "description": "Service coverage for Macan, Panamera and Taycan. Delivered digitally the same day.",
       "ebay_link": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=macan+workshop+manual"
     }
@@ -313,8 +313,8 @@
   "ebay_search_url": "https://www.ebay.com/sch/i.html?_ssn=theinternationalcargarage&_nkw=porsche+workshop+manual",
   "paypal_button_id": "ZRVBZSAEA2QKS",
   "paypal_button_html": "",
-  "direct_price": "$39.99",
-  "ebay_price": "$39.99",
+  "direct_price": "$29.99",
+  "ebay_price": "$29.99",
   "dvd_addon_price": "$24.99",
   "dvd_button_id": "4W4AVVSTFPTJ2",
   "dvd_button_html": "",
